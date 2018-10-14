@@ -55,7 +55,6 @@ def selective_tweet_shortener(tweet)
     return tweet
   end
 end
-# selective_tweet_shortener("New game. Middle aged tweet followed by #youngPeopleHashTag Example: Gotta get my colonoscopy and mammogram soon. Prevention is key! #swag")
 
 
 ## does not shorten tweets shorter than 140 characters.
@@ -70,6 +69,4 @@ def shortened_tweet_truncator(tweet)
   if shorten_tweet.length > 140
     return truncate(tweet)
   end
-
-
 end
